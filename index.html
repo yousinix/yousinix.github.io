@@ -2,9 +2,14 @@
 layout: default
 ---
 
+<div class="row my-2 p-4">
+  <img class="rounded-circle mr-3 mb-3" src="https://avatars2.githubusercontent.com/u/41103290?s=460&v=4" width="72" height="72" />
+  <h3 class="my-auto text-dark">YoussefRaafatNasry.</h3>
+</div>
+
 {% include projects.html %}
 
 <div class="row my-5">
-{% include list.html title="Languages" data=site.data.languages %}
-{% include list.html title="Tools" data=site.data.tools %}
+  {% include list.html title="Languages" data=site.data.languages %}
+  {% include list.html title="Tools" data=site.data.tools %}
 </div>
