@@ -3,8 +3,8 @@
   padding: 32px;
   height: 100%;
   position: relative;
-  background-color: #fff;
-  box-shadow: 0 2px 4px 0 #ccd0d9;
+  background-color: white;
+  box-shadow: $box-shadow;
   border-radius: 4px;
   overflow: hidden;
   transition: all 0.3s ease;
@@ -26,7 +26,7 @@
 
     .icon {
       width: 32px;
-      fill: #3973ff;
+      fill: $primary;
       transition: all 0.3s ease;
     }
 
@@ -40,10 +40,11 @@
     }
 
     .title {
-      font-weight: 200;
+      font-weight: 600;
       margin-left: 12px;
+      margin-top: 4px;
       font-size: 18px;
-      color: #ffffff;
+      color: white;
       transform: translatex(-8%);
       transition: all 0.2s ease-out;
     }
@@ -54,11 +55,11 @@
     margin-top: 24px;
 
     .title {
-      font-weight: 200;
+      font-weight: 600;
       margin-top: 50px;
       margin-bottom: 20px;
       font-size: 18px;
-      color: #292f3a;
+      color: $dark-gray;
       transition: all 0.2s ease-out;
 
       &:before {
@@ -75,7 +76,7 @@
     .tagline {
       opacity: 0.7;
       font-size: 14px;
-      color: #292f3a;
+      color: $dark-gray;
       line-height: 21px;
       transition: all 0.2s ease-out;
     }
@@ -84,7 +85,7 @@
       position: absolute;
       top: -24px;
       font-size: 13px;
-      color: #c3d5ff;
+      color: $light-cyan;
       line-height: 19px;
       transform: translateY(-10px);
       transition: all 0.2s ease-out;
@@ -97,7 +98,7 @@
     left: -25%;
     height: 125%;
     z-index: -999;
-    fill: rgba(255, 255, 255, 0.15);
+    fill: $transparent-white;
     transform-origin: left;
     transform: scale(0.9);
     transition-delay: 0.3s;
@@ -105,7 +106,7 @@
   }
 
   &:hover {
-    background-color: #3973ff;
+    background-color: $primary;
     box-shadow: none;
     transform: scale3d(0.985, 0.985, 0.985) translateX(0);
 
