@@ -1,0 +1,43 @@
+.circle-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 56px;
+  height: 56px;
+  background-color: #fff;
+  border-radius: 100%;
+  box-shadow: 0 2px 4px 0 #ccd0d9;
+  text-decoration: none;
+  transition: all 0.3s;
+
+  &::after {
+    z-index: -5;
+    content: "";
+    width: inherit;
+    height: inherit;
+    background-color: #3973ff;
+    border-radius: 100%;
+    position: absolute;
+    opacity: 0;
+    transform: scale(0.3);
+    transition: all 0.3s ease;
+  }
+
+  i {
+    color: #3973ff;
+    font-size: 24px;
+    transition: all 0.3s ease;
+  }
+
+  &:hover {
+    transition: border 0.6s;
+    background-color: transparent;
+    &::after {
+      opacity: 1;
+      transform: scale(1);
+    }
+    i {
+      color: #fff;
+    }
+  }
+}
