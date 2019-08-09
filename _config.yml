@@ -1,8 +1,13 @@
 ### Site Settings ###
-title       : YoussefRaafatNasry
 description : Coding like Vincent Van Gogh
 repository  : YoussefRaafatNasry/YoussefRaafatNasry.github.io
 
+
+### Accounts ###
+author:
+  github: YoussefRaafatNasry
+  linkedin: YoussefRaafatNasry
+  email: YoussefRaafatNasry@gmail.com
 
 ### Collections ###
 collections:
