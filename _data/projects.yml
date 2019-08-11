@@ -21,6 +21,13 @@
     made for developers, used to plan workflows and organize tasks to keep your
     teamwork on schedule and track the board's progress.
 
+- name: RESx
+  url: https://resx.github.io/
+  tagline: Courses' materials and resources
+  description:
+    An unofficial collaborating community for updating and organizing learning
+    resources of Faculty of Computer and Information Sciences at Ain Shams University.
+
 - name: portfolYOU
   url: https://youssefraafatnasry.github.io/portfolYOU/
   tagline: Modern portfolio HTML template
@@ -28,19 +35,13 @@
     portfolYOU is a free modern open-source Jekyll portfolio and blogging theme that works
     with GitHub Pages with a plenty of elements and alot of possible customizations.
 
-- name: CP Journey
-  url: https://github.com/YoussefRaafatNasry/cp-journey/
-  tagline: My journey into Competitive Programming
+- name: ScoutsEncoder
+  url: https://youssefraafatnasry.github.io/ScoutsEncoder/
+  tagline: Encode arabic text into scouts' ciphers
   description:
-    Learning alot of data structures and algorithms and solving much more problems
-    to improve my problem solving and critical thinking skills.
-
-- name: Git for Wizards
-  url: https://github.com/YoussefRaafatNasry/git-for-wizards/
-  tagline: Magic spells for Git & GitHub
-  description:
-    A repo about Git & GitHub where I expose most of the magic spells that
-    I have learned and the magic wands that I use regularly.
+    An open source WPF application that encodes arabic plain text into
+    scouts' ciphers with a single button click. Usually leaders used to do
+    the encoding using a pen and paper.
 
 - name: FitnessApp
   url: https://github.com/YoussefRaafatNasry/FitnessApp/
@@ -50,13 +51,26 @@
     their weight, the food they eat, workouts they make and the
     calories they lose or gain every day.
 
-- name: ScoutsEncoder
-  url: https://youssefraafatnasry.github.io/ScoutsEncoder/
-  tagline: Encode arabic text into scouts' ciphers
+- name: Git for Wizards
+  url: https://github.com/YoussefRaafatNasry/git-for-wizards/
+  tagline: Magic spells for Git & GitHub
   description:
-    An open source WPF application that encodes arabic plain text into
-    scouts' ciphers with a single button click. Usually leaders used to do
-    the encoding using a pen and paper.
+    A repo about Git & GitHub where I expose most of the magic spells that
+    I have learned and the magic wands that I use regularly.
+
+- name: CP Journey
+  url: https://github.com/YoussefRaafatNasry/cp-journey/
+  tagline: My journey into Competitive Programming
+  description:
+    Learning alot of data structures and algorithms and solving much more problems
+    to improve my problem solving and critical thinking skills.
+
+- name: DRG
+  url: https://github.com/YoussefRaafatNasry/dummy-repo-generator/
+  tagline: Dummy repo generator
+  description:
+    A bash script to generate git repository with dummy commits, helpful for educational
+    purposes and to try new git commands without destroying real-life repositories.
 
 - name: Identicon Generator
   url: https://github.com/YoussefRaafatNasry/identicon-generator/
@@ -73,6 +87,30 @@
     A command line tool for visualizing Binary Search Trees using an algorithm
     I have developed myself from multiple algorithms that are available in
     my case study.
+
+- name: Critical Path Method
+  url: https://github.com/YoussefRaafatNasry/critical-path-method/
+  tagline: Critical Path Method's algorithm using C++
+  description:
+    The Critical Path Method is an algorithm for scheduling a set of project activities.
+    A critical path is determined by identifying the longest stretch of dependent activities
+    and measuring the time required to complete them.
+
+- name: Hangcow
+  url: https://github.com/YoussefRaafatNasry/hangcow/
+  tagline: Cow edition of hangman game
+  description:
+    Hangman game (cow edition) using WinForms, supports keyboard and mouse inputs,
+    also displays top and recent scores, and have a customizable words list
+    with different difficulties.
+
+- name: Movie Store
+  url: https://github.com/YoussefRaafatNasry/movie-store-management/
+  tagline: Console app for managing movie stores
+  description:
+    A software to help movie store owners to manage movie rentals and control,
+    when movies are checked out, due to return, overdue fees and many other
+    functionalities using files.
 
 - name: The Artopital
   url: https://www.facebook.com/TheArtopital/
