@@ -1,5 +1,5 @@
 body {
-  background-color: $bg-color;
+  background-color: $background;
   font-family: sans-serif;
   overflow-x: hidden;
 }
@@ -24,9 +24,13 @@ h4 {
   color: $primary;
 }
 
+.footer {
+  background-color: $footer;
+}
+
 .social {
-  fill: #212529;
-  margin: 2px;
+  fill: $footer-icons;
+  margin: 4px;
   width: 21px;
   height: 21px;
   &:hover {
