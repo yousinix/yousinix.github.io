@@ -1,6 +1,18 @@
 body {
   background-color: $bg-color;
   font-family: sans-serif;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: $primary;
+  &:hover {
+    background: darken($primary, 15%);
+  }
 }
 
 h1,
