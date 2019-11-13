@@ -7,14 +7,14 @@
     spotify when someone sends him a track link.
 
 - name: minim
-  url: https://michaelsafwathanna.github.io/minim/
+  url: https://zero-based.github.io/minim/
   tagline: Rethinking what a chat app means
   description:
     An android chat app with limited message length and time, messages
     are destructed when their time ends. Also messages are encrypted using AES.
 
 - name: octillect
-  url: https://monicatanios.github.io/octillect/
+  url: https://zero-based.github.io/octillect/
   tagline: An Intellectual Octopus for managing tasks and projects
   description:
     Octillect <i>(octopus + intellect)</i> can manage tasks on project level,
@@ -44,7 +44,7 @@
     the encoding using a pen and paper.
 
 - name: FitnessApp
-  url: https://github.com/YoussefRaafatNasry/FitnessApp/
+  url: https://github.com/zero-based/FitnessApp/
   tagline: Desktop app to help you reach your weight goals
   description:
     FitnessApp allows users to reach their weight goals through tracking
@@ -89,7 +89,7 @@
     my case study.
 
 - name: Critical Path Method
-  url: https://github.com/YoussefRaafatNasry/critical-path-method/
+  url: https://github.com/zero-based/critical-path-method/
   tagline: Critical Path Method's algorithm using C++
   description:
     The Critical Path Method is an algorithm for scheduling a set of project activities.
@@ -97,7 +97,7 @@
     and measuring the time required to complete them.
 
 - name: Hangcow
-  url: https://github.com/YoussefRaafatNasry/hangcow/
+  url: https://github.com/zero-based/hangcow/
   tagline: Cow edition of hangman game
   description:
     Hangman game (cow edition) using WinForms, supports keyboard and mouse inputs,
@@ -105,7 +105,7 @@
     with different difficulties.
 
 - name: Movie Store
-  url: https://github.com/YoussefRaafatNasry/movie-store-management/
+  url: https://github.com/zero-based/movie-store-management/
   tagline: Console app for managing movie stores
   description:
     A software to help movie store owners to manage movie rentals and control,
@@ -128,7 +128,7 @@
     high quality fabrics.
 
 - name: Arduino Visitor Counter
-  url: https://github.com/YoussefRaafatNasry/arduino-visitor-counter/
+  url: https://github.com/zero-based/arduino-visitor-counter/
   tagline: Mini-project using Arduino Uno
   description:
     A controller based model which can sense if any person enters the room,
