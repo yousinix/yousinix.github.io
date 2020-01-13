@@ -7,8 +7,10 @@
   <a class="col-lg-4 p-2 text-decoration-none" href="{{ project.url }}">
     <div class="project preShow">
 
+      {% assign icon_path =  project.name | slugify | prepend: 'icons/' | append: '.svg'  %}
+
       <div class="top">
-        {% include icon.html class="icon" name=project.name %}
+        <div class="icon-container">{% include {{ icon_path }} %}</div>
         <h2 class="back title">{{ project.name }}</h2>
         <i class="back arrow fas fa-arrow-right"></i>
       </div>
@@ -19,7 +21,7 @@
         <p class="back description">{{ project.description }}</p>
       </div>
 
-      {% include icon.html class="back bg-icon" name=project.name %}
+      <div class="back bg-icon-container">{% include {{ icon_path }} %}</div> 
 
     </div>
   </a>

@@ -24,7 +24,7 @@
     align-items: center;
     position: relative;
 
-    .icon {
+    .icon-container > svg {
       width: 32px;
       fill: $primary;
       transition: all 0.3s ease;
@@ -92,7 +92,7 @@
     }
   }
 
-  .bg-icon {
+  .bg-icon-container > svg {
     position: absolute;
     top: -12.5%;
     left: -25%;
@@ -131,11 +131,11 @@
       }
     }
 
-    .icon {
+    .icon-container > svg {
       fill: $card-back-content;
     }
 
-    .bg-icon {
+    .bg-icon-container > svg {
       transform: scale(1);
     }
   }
