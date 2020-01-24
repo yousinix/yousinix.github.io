@@ -6,21 +6,6 @@
     like WhatsApp, Messenger, etc. He can also do basic tasks like liking tracks on
     spotify when someone sends him a track link.
 
-- name: minim
-  url: https://zero-based.github.io/minim/
-  tagline: Rethinking what a chat app means
-  description:
-    An android chat app with limited message length and time, messages
-    are destructed when their time ends. Also messages are encrypted using AES.
-
-- name: octillect
-  url: https://zero-based.github.io/octillect/
-  tagline: An Intellectual Octopus for managing tasks and projects
-  description:
-    Octillect <i>(octopus + intellect)</i> can manage tasks on project level,
-    made for developers, used to plan workflows and organize tasks to keep your
-    teamwork on schedule and track the board's progress.
-
 - name: RESx
   url: https://resx.github.io/
   tagline: Courses' materials and resources
@@ -42,14 +27,6 @@
     An open source WPF application that encodes arabic plain text into
     scouts' ciphers with a single button click. Usually leaders used to do
     the encoding using a pen and paper.
-
-- name: FitnessApp
-  url: https://github.com/zero-based/FitnessApp/
-  tagline: Desktop app to help you reach your weight goals
-  description:
-    FitnessApp allows users to reach their weight goals through tracking
-    their weight, the food they eat, workouts they make and the
-    calories they lose or gain every day.
 
 - name: Git for Wizards
   url: https://github.com/YoussefRaafatNasry/git-for-wizards/
@@ -88,30 +65,6 @@
     I have developed myself from multiple algorithms that are available in
     my case study.
 
-- name: Critical Path Method
-  url: https://github.com/zero-based/critical-path-method/
-  tagline: Critical Path Method's algorithm using C++
-  description:
-    The Critical Path Method is an algorithm for scheduling a set of project activities.
-    A critical path is determined by identifying the longest stretch of dependent activities
-    and measuring the time required to complete them.
-
-- name: Hangcow
-  url: https://github.com/zero-based/hangcow/
-  tagline: Cow edition of hangman game
-  description:
-    Hangman game (cow edition) using WinForms, supports keyboard and mouse inputs,
-    also displays top and recent scores, and have a customizable words list
-    with different difficulties.
-
-- name: Movie Store
-  url: https://github.com/zero-based/movie-store-management/
-  tagline: Console app for managing movie stores
-  description:
-    A software to help movie store owners to manage movie rentals and control,
-    when movies are checked out, due to return, overdue fees and many other
-    functionalities using files.
-
 - name: The Artopital
   url: https://www.facebook.com/TheArtopital/
   tagline: Quotes from Movies and TV Shows
@@ -126,11 +79,3 @@
     Teemato aims at helping High School Seniors in creating their outfits
     (T-shirts, Hoodies & Bracelets) from scratch using creative designs and
     high quality fabrics.
-
-- name: Arduino Visitor Counter
-  url: https://github.com/zero-based/arduino-visitor-counter/
-  tagline: Mini-project using Arduino Uno
-  description:
-    A controller based model which can sense if any person enters the room,
-    it lights up the room automatically with different intensities and also
-    counts how many person are actually in the room.

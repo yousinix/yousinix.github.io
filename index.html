@@ -5,9 +5,17 @@ layout: default
 <div class="container p-4">
 
   {% include header.html %}
+
+  <h2 class="text-center my-3">— Projects —</h2>
+  <p class="text-muted text-center">
+    The projects below are only <b>personal projects</b><br>
+    Check <b>team projects</b> on 
+    <a class="text-decoration-none" href="{{ site.team_site }}" target="_blank"><b>@zero-based</b></a>
+  </p>
+
   {% include projects.html %}
 
-<!-- Languages & Tools -->
+  <!-- Languages & Tools -->
   <!-- <div class="row my-5">
     {% include list.html title="Languages" data=site.data.languages delay=".4s" %}
     {% include list.html title="Tools" data=site.data.tools delay=".8s" %}
