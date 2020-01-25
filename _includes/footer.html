@@ -1,4 +1,4 @@
-<div class="container-fluid footer p-5 mt-5">
+<div class="container-fluid footer p-5">
   <div class="container">
     <div class="row justify-content-around align-items-center">
 
@@ -10,10 +10,8 @@
 
       <div class="col-xl-3 col-lg-4 col-md-12 col-sm-12 text-center my-1">
         {% for social in site.data.social %}
-        <a class="text-decoration-none" href="{{ social.prefix }}{{ social.postfix }}">
-          <svg class="social" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-            <path d="{{ social.svg }}" />
-          </svg>
+        <a class="text-decoration-none social" href="{{ social.prefix }}{{ social.postfix }}">
+          {% include icon.html name=social.name category="social" %}
         </a>
         {% endfor %}
       </div>
