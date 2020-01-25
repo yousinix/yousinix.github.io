@@ -23,9 +23,10 @@
     transition: all 0.3s ease;
   }
 
-  i {
-    color: $primary;
-    font-size: 24px;
+  svg {
+    fill: $primary;
+    width: 24px;
+    height: 24px;
     transition: all 0.3s ease;
   }
 
@@ -36,8 +37,8 @@
       opacity: 1;
       transform: scale(1);
     }
-    i {
-      color: white;
+    svg {
+      fill: white;
     }
   }
 }

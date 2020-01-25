@@ -1,0 +1,4 @@
+{% assign category =  include.category | slugify %}
+{% assign base =  category | append: '/' | prepend: 'icons/' %}
+{% assign path =  include.name | slugify | prepend: base | append: '.svg'  %}
+{% include {{ path }} %}
