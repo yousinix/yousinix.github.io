@@ -3,5 +3,27 @@
     stroke: white;
     stroke-width: 6.4px;
     width: 64px;
+    margin-bottom: 64px;
+  }
+
+  &__bottom {
+    margin-top: auto;
+  }
+
+  &__links {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__link {
+    margin-right: 32px;
+    color: white;
+    font-family: monospace;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    &:hover {
+      font-weight: bold;
+    }
   }
 }

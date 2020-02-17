@@ -8,6 +8,14 @@ layout: default
   </div>
   <h1>{{ site.github.owner.login }}</h1>
   <p>{{ site.github.owner.bio }}</p>
+  <div class="sidebar__bottom">
+    <div class="sidebar__links">
+      {% for link in site.data.links %}
+      <a class="sidebar__link" href="{{ link.url }}">{{ link.name }}</a>
+      {% endfor %}
+    </div>
+  </div>
+
 </div>
 
 <main class="content">
