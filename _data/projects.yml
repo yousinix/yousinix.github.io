@@ -1,83 +1,110 @@
 - name: Aljurythm
-  url: https://github.com/YoussefRaafatNasry/aljurythm
-  tagline: A judge for Algorithm Course.
+  url: https://www.nuget.org/packages/Aljurythm/
   description:
-    Aljurythm is a code judge that I have created for my Algorithms Course's Assignments,
-    to replace boilerplate code and display better outputs. It's like a mini-testing framework.
+    A code judge that I have created for my Algorithms Course's Assignments, to replace
+    boilerplate code and display better outputs. It's like a testing mini-library.
+  tags:
+    - C#
+    - NuGet Package Manager
 
 - name: Detoxicated
   url: https://youssefraafatnasry.me/detoxicated/
-  tagline: Tracking my Social Media Detox
   description:
-    A site to keep track of the detailed time since I left Facebook and Instagram.
+    Keeping track of my social media detox, time since I've left Facebook and Instagram.
     I think you should try quitting it too.
+  tags:
+    - HTML
+    - CSS
 
 - name: otto
   url: https://youssefraafatnasry.github.io/otto/
-  tagline: otto-matic replies for chatting apps
   description:
-    otto is a smart assistant that can reply to basic questions on chatting apps
-    like WhatsApp, Messenger, etc. He can also do basic tasks like liking tracks on
-    spotify when someone sends him a track link.
+    otto is a smart mini-assistant that can reply "otto-matically" to basic messages
+    on chatting apps like WhatsApp, Messenger, etc. He can also do basic tasks like
+    adding received tracks to my on Spotify's liked songs.
+  tags:
+    - Kotlin
+    - Android
+    - Spotify API
 
 - name: RESx
   url: https://resx.github.io/
   tagline: Courses' materials and resources
   description:
-    An unofficial collaborating community for updating and organizing learning
+    An unofficial community for collaboration to update and organize learning
     resources of Faculty of Computer and Information Sciences at Ain Shams University.
+  tags:
+    - Jekyll
+    - HTML
+    - Sass
+    - GitHub API
 
 - name: portfolYOU
   url: https://youssefraafatnasry.github.io/portfolYOU/
-  tagline: Modern portfolio HTML template
   description:
     portfolYOU is a free modern open-source Jekyll portfolio and blogging theme that works
-    with GitHub Pages with a plenty of elements and alot of possible customizations.
+    with GitHub Pages with a plenty of elements and a lot of possible customizations.
+  tags:
+    - Jekyll
+    - HTML
+    - Sass
+    - Ruby Gems
 
 - name: ScoutsEncoder
   url: https://youssefraafatnasry.github.io/ScoutsEncoder/
-  tagline: Encode arabic text into scouts' ciphers
   description:
-    An open source WPF application that encodes arabic plain text into
-    scouts' ciphers with a single button click. Usually leaders used to do
-    the encoding using a pen and paper.
+    A WPF application that encodes arabic plain text into scouts' ciphers with
+    a single button click. Usually scouts' leaders used to do the encoding using pen and paper.
+  tags:
+    - WPF
+    - C#
+    - Material Design
 
 - name: Git for Wizards
   url: https://github.com/YoussefRaafatNasry/git-for-wizards/
-  tagline: Magic spells for Git & GitHub
   description:
-    A repo about Git & GitHub where I expose most of the magic spells that
-    I have learned and the magic wands that I use regularly.
+    A repo about, yeah you guessed it right, Git & GitHub where I expose most of the magic
+    spells that I have learned and the magic wands that I use regularly.
+  tags:
+    - Git
+    - GitHub
 
 - name: CP Journey
   url: https://github.com/YoussefRaafatNasry/cp-journey/
-  tagline: My journey into Competitive Programming
   description:
-    Learning alot of data structures and algorithms and solving much more problems
+    Learning a lot of data structures and algorithms and solving much more problems
     to improve my problem solving and critical thinking skills.
+  tags:
+    - Competitive Programming
 
 - name: DRG
   url: https://github.com/YoussefRaafatNasry/dummy-repo-generator/
-  tagline: Dummy repo generator
   description:
     A bash script to generate git repository with dummy commits, helpful for educational
     purposes and to try new git commands without destroying real-life repositories.
+  tags:
+    - Bash
+    - Script
 
 - name: Identicon Generator
   url: https://github.com/YoussefRaafatNasry/identicon-generator/
-  tagline: Generate avatars like GitHub
   description:
     An Identicon is a visual representation of a hash value, usually of an IP address,
     that serves to identify a user of a computer system as a form of avatar while
     protecting the users' privacy.
+  tags:
+    - JavaFX
+    - Java
 
 - name: BST ASCII Visualization
   url: https://github.com/YoussefRaafatNasry/bst-ascii-visualization/
-  tagline: C++ based algorithm for visualizing Binary Search Trees
   description:
     A command line tool for visualizing Binary Search Trees using an algorithm
     I have developed myself from multiple algorithms that are available in
     my case study.
+  tags:
+    - C++
+    - Data Visualization
 
 # - name: The Artopital
 #   url: https://www.facebook.com/TheArtopital/
@@ -88,8 +115,11 @@
 
 - name: Teemato
   url: https://www.facebook.com/teemato.eg/
-  tagline: Startup for making seniors' garments
   description:
     Teemato aims at helping High School Seniors in creating their outfits
     (T-shirts, Hoodies & Bracelets) from scratch using creative designs and
     high quality fabrics.
+  tags:
+    - Startup
+    - Business
+    - Graphic Design

@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,700&display=swap");
 
 body {
   color: white;
@@ -9,4 +9,8 @@ h1 {
   line-height: 0.8;
   font-size: 64px;
   word-break: break-all;
+}
+
+p {
+  font-weight: 300;
 }

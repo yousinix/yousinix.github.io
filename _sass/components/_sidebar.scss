@@ -21,7 +21,6 @@
     color: gray;
     font-family: monospace;
     text-align: right;
-    text-decoration: none;
     letter-spacing: 4px;
   }
 
@@ -32,10 +31,8 @@
 
   &__link {
     margin-right: 32px;
-    color: white;
     font-family: monospace;
     text-transform: uppercase;
-    text-decoration: none;
 
     &:hover {
       font-weight: bold;

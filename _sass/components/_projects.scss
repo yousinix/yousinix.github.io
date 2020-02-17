@@ -1,0 +1,61 @@
+.project {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+  &s {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 64px;
+    list-style: none;
+    padding: 0;
+  }
+
+  &__header {
+    display: flex;
+    margin-bottom: 24px;
+  }
+
+  &__title {
+    margin: auto 0;
+    line-height: 0;
+  }
+
+  &__icon {
+    padding: 2px;
+    margin-right: 12px;
+    svg {
+      fill: white;
+      width: 24px;
+    }
+  }
+
+  &__description {
+    color: gray;
+    transition: color 0.25s;
+    margin-top: 0;
+    margin-bottom: 24px;
+  }
+
+  &__tags {
+    margin-top: auto;
+    font-size: 12px;
+    font-style: italic;
+    font-family: monospace;
+
+    &::before {
+      content: "// ";
+      font-style: normal;
+    }
+  }
+
+  $root: &;
+
+  &:hover {
+    #{$root} {
+      &__description {
+        color: white;
+      }
+    }
+  }
+}
