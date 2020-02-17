@@ -1,0 +1,19 @@
+- name: The Artopital
+  url: https://www.facebook.com/TheArtopital/
+  description:
+    The Artopital is a facebook page where I post quotes that I loved from
+    movies or TV shows I watched. Also a good place to know what I am currently watching.
+  tags:
+    - Movies
+    - Quotes
+
+- name: Teemato
+  url: https://www.facebook.com/teemato.eg/
+  description:
+    Teemato aims at helping High School Seniors in creating their outfits
+    (T-shirts, Hoodies & Bracelets) from scratch using creative designs and
+    high quality fabrics.
+  tags:
+    - Startup
+    - Business
+    - Graphic Design
