@@ -6,7 +6,7 @@ layout: default
 
   <div class="sidebar__top">
     <div class="sidebar__logo">
-      {% include {{site.github.owner.login | downcase | prepend: 'icons/' | append: '.svg' }} %}
+      {% include {{ site.github.owner.login | downcase | prepend: 'icons/' | append: '.svg' }} %}
     </div>
     <a id="gh-rank" href="https://commits.top/egypt" class="sidebar__badge"></a>
   </div>
@@ -17,7 +17,8 @@ layout: default
   <div class="sidebar__bottom">
     <div class="sidebar__links">
       {% for link in site.data.links %}
-      <a class="sidebar__link" href="{{ link.url }}">{{ link.name }}</a>
+      {% assign data = link[1] %}
+      <a class="sidebar__link" href="{{ data.url }}">{{ data.name }}</a>
       {% endfor %}
     </div>
   </div>
@@ -25,50 +26,24 @@ layout: default
 </div>
 
 <main class="content">
+
   <section class="section">
     <h2 class="section__title">Team Projects</h2>
     <p class="section__description">
       During college, I've worked with my beloved team <b>zero-based</b>
       on a lot of projects, participated in more than one hackathon.
     </p>
-    <a href="{{ site.data.links[1].url }}" class="button">Have a look</a>
+    <a href="{{ site.data.links.zero-based.url }}" class="button">Have a look</a>
   </section>
-
 
   <section class="section">
     <h2 class="section__title">Personal Projects</h2>
-    <ul class="projects">
-      {% for project in site.data.projects %}
-      <li>
-        <a href="{{ project.url }}" class="project">
-          <div class="project__header">
-            <span class="project__icon">{% include icon.html name=project.name category="projects" %}</span>
-            <h2 class="project__title">{{ project.name }}</h2>
-          </div>
-          <p class="project__description">{{ project.description }}</p>
-          <h5 class="project__tags">{{ project.tags | join: ' - ' }}</h5>
-        </a>
-      </li>
-      {% endfor %}
-    </ul>
+    {% include projects-list.html source=site.data.projects %}
   </section>
 
   <section class="section">
     <h2 class="section__title">Other Projects</h2>
-    <ul class="projects">
-      {% for project in site.data.other-projects %}
-      <li>
-        <a href="{{ project.url }}" class="project">
-          <div class="project__header">
-            <span class="project__icon">{% include icon.html name=project.name category="projects" %}</span>
-            <h2 class="project__title">{{ project.name }}</h2>
-          </div>
-          <p class="project__description">{{ project.description }}</p>
-          <h5 class="project__tags">{{ project.tags | join: ' - ' }}</h5>
-        </a>
-      </li>
-      {% endfor %}
-    </ul>
+    {% include projects-list.html source=site.data.other-projects %}
   </section>
 
 </main>

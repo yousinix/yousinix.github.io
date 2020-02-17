@@ -1,20 +1,27 @@
-- name: resume
+resume:
+  name: resume
   url: https://docs.google.com/document/d/1IUDXlrmKFvhkr0-P2bP3NlsNMESeCzCvJoOiXRYIRz4/export?format=pdf
 
-- name: "[0]"
-  url: https://zero-based.github.io/
+zero-based:
+  name: "[0]"
+  url: https://zero-based.github.io
 
-- name: gh
+github:
+  name: gh
   url: https://github.com/YoussefRaafatNasry
 
-- name: in
+linkedin:
+  name: in
   url: https://www.linkedin.com/in/YoussefRaafatNasry
 
-- name: cf
+codeforces:
+  name: cf
   url: https://codeforces.com/profile/YoussefRaafatNasry
 
-- name: be
+behance:
+  name: be
   url: https://www.behance.net/YoussefRaafatNasry
 
-- name: ma
+mail:
+  name: ma
   url: mailto:YoussefRaafatNasry@gmail.com
