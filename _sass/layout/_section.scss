@@ -2,7 +2,10 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin-bottom: 64px;
+
+  &:not(:last-child) {
+    margin-bottom: 64px;
+  }
 
   &__title {
     margin-bottom: 32px;
@@ -11,6 +14,9 @@
   &__description {
     margin-top: 0;
     margin-bottom: 24px;
-    width: 70%;
+
+    @include min-width(md) {
+      width: 70%;
+    }
   }
 }

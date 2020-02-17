@@ -1,0 +1,26 @@
+.skills {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+
+  @include min-width(md) {
+    width: 80%;
+  }
+
+  &__category {
+    &__title {
+      text-transform: uppercase;
+    }
+
+    &__list {
+      list-style: none;
+      padding: 0;
+    }
+
+    &__item {
+      font-weight: 300;
+      color: gray;
+    }
+  }
+}

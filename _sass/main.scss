@@ -1,4 +1,5 @@
 @import "abstracts/variables";
+@import "abstracts/mixins";
 
 // @import 'vendors/...';
 
@@ -12,7 +13,7 @@
 @import "components/button";
 @import "components/projects";
 @import "components/sidebar";
-@import "components/skills-table";
+@import "components/skills";
 
 // @import 'pages/...';
 

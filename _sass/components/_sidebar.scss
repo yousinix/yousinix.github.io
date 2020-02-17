@@ -30,12 +30,16 @@
   }
 
   &__link {
-    margin-right: 32px;
+    margin-right: 18px;
     font-family: monospace;
     text-transform: uppercase;
 
     &:hover {
       font-weight: bold;
+    }
+
+    @include min-width(md) {
+      margin-right: 32px;
     }
   }
 }
