@@ -1,0 +1,15 @@
+body {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+
+  &-thumb {
+    background: white;
+  }
+
+  &-track {
+    background: black;
+  }
+}

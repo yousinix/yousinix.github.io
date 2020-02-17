@@ -1,0 +1,30 @@
+body {
+  position: relative;
+  display: grid;
+  grid-template-areas: "sidebar content";
+  grid-template-columns: $sidebar-width auto;
+  padding: 0 $main-spacing;
+  gap: $main-spacing;
+}
+
+%padding {
+  padding: $main-spacing 0;
+  box-sizing: border-box;
+}
+
+.sidebar {
+  grid-area: sidebar;
+  @extend %padding;
+  position: fixed;
+  top: 0;
+  min-height: 100vh;
+  width: $sidebar-width;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.content {
+  grid-area: content;
+  @extend %padding;
+}
