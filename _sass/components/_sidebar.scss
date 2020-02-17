@@ -16,6 +16,16 @@
     width: 64px;
   }
 
+  &__title {
+    line-height: 0.8;
+    font-size: 64px;
+    word-break: break-all;
+  }
+
+  &__bio {
+    @extend %hoverable;
+  }
+
   &__badge {
     width: 40%;
     font-family: monospace;
