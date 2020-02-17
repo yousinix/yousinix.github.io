@@ -3,3 +3,12 @@
     @content;
   }
 }
+
+@mixin pseudo-element-selector($selector) {
+  $prefixes: "", "-webkit-", "-moz-";
+  @each $prefix in $prefixes {
+    #{"::" + $prefix + $selector} {
+      @content;
+    }
+  }
+}

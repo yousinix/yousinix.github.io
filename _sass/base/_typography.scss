@@ -8,3 +8,8 @@ body {
 p {
   font-weight: 300;
 }
+
+@include pseudo-element-selector(selection) {
+  background: rgba(#ffffff, 0.99);
+  color: black;
+}
