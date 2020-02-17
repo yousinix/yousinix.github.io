@@ -16,11 +16,8 @@
     &__list {
       list-style: none;
       padding: 0;
-    }
-
-    &__item {
       font-weight: 300;
-      color: gray;
+      @extend %hoverable;
     }
   }
 }

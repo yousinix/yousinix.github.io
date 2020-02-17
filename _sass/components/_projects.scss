@@ -31,10 +31,9 @@
   }
 
   &__description {
-    color: gray;
-    transition: color 0.25s;
     margin-top: 0;
     margin-bottom: 24px;
+    @extend %hoverable;
   }
 
   &__tags {
@@ -49,13 +48,7 @@
     }
   }
 
-  $root: &;
-
-  &:hover {
-    #{$root} {
-      &__description {
-        color: white;
-      }
-    }
+  &:hover * {
+    color: white;
   }
 }

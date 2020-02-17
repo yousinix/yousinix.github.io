@@ -18,10 +18,10 @@
 
   &__badge {
     width: 40%;
-    color: gray;
     font-family: monospace;
     text-align: right;
     letter-spacing: 4px;
+    @extend %hoverable;
   }
 
   &__links {
