@@ -1,13 +1,28 @@
 .sidebar {
-  &__logo svg {
-    stroke: white;
-    stroke-width: 6.4px;
-    width: 64px;
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     margin-bottom: 64px;
   }
 
   &__bottom {
     margin-top: auto;
+  }
+
+  &__logo svg {
+    stroke: white;
+    stroke-width: 6.4px;
+    width: 64px;
+  }
+
+  &__badge {
+    width: 40%;
+    color: gray;
+    font-family: monospace;
+    text-align: right;
+    text-decoration: none;
+    letter-spacing: 4px;
   }
 
   &__links {

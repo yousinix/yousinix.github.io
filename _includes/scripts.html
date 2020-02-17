@@ -1,4 +1,13 @@
 <script src="assets/js/contributions.js"></script>
+<script>
+    fetchContributions(
+        "{{ site.github.owner.login }}",
+        (user) => {
+            var el2 = document.getElementById("gh-rank");
+            el2.innerText = `${user.ordinal_rank} Most Active GitHub User in Egypt`;
+        }
+    );
+</script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/vivus/0.4.5/vivus.min.js"></script>
 <script>

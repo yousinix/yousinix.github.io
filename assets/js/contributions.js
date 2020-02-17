@@ -1,31 +1,26 @@
----
----
+function fetchContributions(username, callback) {
+  var githubTopRepo = "lauripiispanen/github-top";
+  var egyptPath = "_data/locations/egypt.yml";
 
-var githubTopRepo = "lauripiispanen/github-top";
-var egyptPath = "_data/locations/egypt.yml";
-var login = "{{ site.github.owner.login }}"
-
-fetch(`https://api.github.com/repos/${githubTopRepo}/contents/${egyptPath}`)
-  .then(response => response.json())
-  .then(data => {
-    var me = atob(data.content)
-      .split("\n\n")
-      .find(u => u.includes(login));
-    var json = userToJson(me);
-
-    var el1 = document.getElementById("contrib-count");
-    el1.innerText = json.contributions;
-
-    var el2 = document.getElementById("gh-rank");
-    el2.innerText = `Ranked the ${getNumberWithOrdinal(json.rank)} GitHub User in Egypt`;
-  });
+  fetch(`https://api.github.com/repos/${githubTopRepo}/contents/${egyptPath}`)
+    .then(res => res.json())
+    .then(data => {
+      var decodedContent = atob(data.content);
+      var userData = decodedContent.split("\n\n").find(u => u.includes(username));
+      var json = userToJson(userData);
+      callback({
+        ...json,
+        ordinal_rank: getNumberWithOrdinal(json.rank)
+      });
+    });
+}
 
 function userToJson(user) {
   var formatted = user
-    .replace(/  - |    |'/g, '"') // Replace line beginnings/single quotes with double quotes
-    .replace(/: /g, '": ') // Replace colons with double quotes
-    .replace(/\n/g, ", "); // Replace newlines with commas
-  return JSON.parse(`{ ${formatted}} `);
+    .replace(/  - |    |'/g, '"')
+    .replace(/: /g, '": ')
+    .replace(/\n/g, ", ");
+  return JSON.parse(`{ ${formatted} }`);
 }
 
 function getNumberWithOrdinal(n) {
