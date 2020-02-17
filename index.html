@@ -46,4 +46,33 @@ layout: default
     {% include projects-list.html source=site.data.other-projects %}
   </section>
 
+  <section class="section">
+    <h2 class="section__title">Skills</h2>
+    <table class="skills-table">
+
+      {%- assign max = 0 -%}
+      {% for category in site.data.skills %}
+      {%- assign size = category[1] | size -%}
+      {%- if max < size -%}
+      {%- assign max = size -%}
+      {%- endif -%}
+      {% endfor %}
+
+      <tr>
+        {% for category in site.data.skills %}
+        <th>{{ category[0] }}</th>
+        {% endfor %}
+      </tr>
+
+      {% for i in (0..max) %}
+      <tr>
+        {% for category in site.data.skills %}
+        <td>{{ category[1][i] }}</td>
+        {% endfor %}
+      </tr>
+      {% endfor %}
+
+    </table>
+  </section>
+
 </main>

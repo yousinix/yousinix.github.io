@@ -1,0 +1,38 @@
+languages:
+  - C#
+  - C++
+  - Java
+  - Kotlin
+  - Dart
+  - Javascript
+  - Typescript
+  - HTML5
+  - CSS3
+  - Sass
+  - GraphQL
+  - Prolog
+  - Assembly
+
+frameworks:
+  - .Net
+  - Node.js
+  - Flutter
+  - React
+  - Apollo GraphQL
+  - Express
+  - Jekyll
+  - MS Test
+  - Jest
+
+tools:
+  - Git
+  - GitHub
+  - Firebase
+  - MongoDB
+  - Visual Studio
+  - Visual Studio Code
+  - Intellij Idea
+  - Linux
+  - Windows
+  - Adobe Photoshop
+  - Adobe Illustrator
