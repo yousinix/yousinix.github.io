@@ -8,7 +8,7 @@ layout: default
     <div class="sidebar__logo">
       {% include {{ site.github.owner.login | downcase | prepend: 'icons/' | append: '.svg' }} %}
     </div>
-    <a id="gh-rank" href="https://commits.top/egypt" class="sidebar__badge"></a>
+    <a id="gh-rank" href="https://commits.top/egypt" class="sidebar__badge wow fadeIn slow" data-wow-delay="2s"></a>
   </div>
 
   <h1>{{ site.github.owner.login }}</h1>
@@ -16,16 +16,18 @@ layout: default
 
   <div class="sidebar__bottom">
     <div class="sidebar__links">
+      {% assign delay = 0.6 %}
       {% for link in site.data.links %}
       {% assign data = link[1] %}
-      <a class="sidebar__link" href="{{ data.url }}">{{ data.name }}</a>
+      <a href="{{ data.url }}" class="sidebar__link wow fadeInLeft" data-wow-delay="{{ delay }}s">{{ data.name }}</a>
+      {% assign delay = delay | plus: 0.2 %}
       {% endfor %}
     </div>
   </div>
 
 </div>
 
-<main class="content">
+<main class="content wow fadeIn slower" data-wow-delay="1.4s">
 
   <section class="section">
     <h2 class="section__title">Team Projects</h2>
@@ -48,8 +50,8 @@ layout: default
 
   <section class="section">
     <h2 class="section__title">Skills</h2>
-    <div class="skills">
 
+    <div class="skills">
       {% for category in site.data.skills %}
       <div class="skills__category">
         <h4 class="skills__category__title">{{ category[0] }}</h4>
@@ -60,7 +62,6 @@ layout: default
         </ul>
       </div>
       {% endfor %}
-
     </div>
   </section>
 
