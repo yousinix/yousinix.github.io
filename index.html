@@ -6,7 +6,7 @@ layout: default
 
   <div class="sidebar__top">
     <div class="sidebar__logo">
-      {% include {{ site.github.owner.login | downcase | prepend: 'icons/' | append: '.svg' }} %}
+      {% include icon.html name=site.github.owner.login %}
     </div>
     <a id="gh-rank" href="https://commits.top/egypt" class="sidebar__badge wow fadeIn slow" data-wow-delay="2s"></a>
   </div>
