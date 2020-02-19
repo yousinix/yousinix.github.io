@@ -1,0 +1,9 @@
+{% assign project = include.data %}
+<a href="{{ project.url }}" class="project">
+  <div class="project__header">
+    <span class="project__icon">{% include components/icon.html name=project.name category="projects" %}</span>
+    <h2 class="project__title">{{ project.name }}</h2>
+  </div>
+  <p class="project__description">{{ project.description }}</p>
+  <h5 class="project__tags">{{ project.tags | join: ' - ' }}</h5>
+</a>

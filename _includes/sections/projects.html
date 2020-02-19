@@ -1,0 +1,8 @@
+<section class="section">
+  <h2 class="section__title">{{ include.title | append: ' Projects' }}</h2>
+  <ul class="projects">
+    {% for project in include.source %}
+    <li>{% include components/project.html data=project %}</li>
+    {% endfor %}
+  </ul>
+</section>

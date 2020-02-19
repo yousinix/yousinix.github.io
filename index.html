@@ -2,71 +2,11 @@
 layout: default
 ---
 
-<div class="sidebar">
-
-  <div class="sidebar__top">
-    <div class="sidebar__logo">
-      {% include icon.html name=site.github.owner.login %}
-    </div>
-    <a id="gh-rank" href="https://commits.top/egypt" class="sidebar__badge wow fadeIn slow" data-wow-delay="2s"></a>
-  </div>
-
-  <h1 class="sidebar__title">{{ site.github.owner.login }}</h1>
-  <p class="sidebar__bio">
-    I am a computer science junior student at Ain Shams University,
-    living in Cairo, Egypt. I am probably coding right now, so
-    wish me a code free of bugs!
-  </p>
-
-  <div class="sidebar__bottom">
-    <div class="sidebar__links">
-      {% assign delay = 0.6 %}
-      {% for link in site.data.links %}
-      {% assign data = link[1] %}
-      <a href="{{ data.url }}" class="sidebar__link wow fadeInLeft" data-wow-delay="{{ delay }}s">{{ data.name }}</a>
-      {% assign delay = delay | plus: 0.2 %}
-      {% endfor %}
-    </div>
-  </div>
-
-</div>
+{% include components/sidebar.html %}
 
 <main class="content wow fadeIn slower" data-wow-delay="1.4s">
-
-  <section class="section">
-    <h2 class="section__title">Team Projects</h2>
-    <p class="section__description">
-      During college, I've worked with my beloved team <b>zero-based</b>
-      on a lot of projects, participated in more than one hackathon.
-    </p>
-    <a href="{{ site.data.links.zero-based.url }}" class="button">Have a look</a>
-  </section>
-
-  <section class="section">
-    <h2 class="section__title">Personal Projects</h2>
-    {% include projects-list.html source=site.data.projects %}
-  </section>
-
-  <section class="section">
-    <h2 class="section__title">Other Projects</h2>
-    {% include projects-list.html source=site.data.other-projects %}
-  </section>
-
-  <section class="section">
-    <h2 class="section__title">Skills</h2>
-
-    <div class="skills">
-      {% for category in site.data.skills %}
-      <div class="skills__category">
-        <h4 class="skills__category__title">{{ category[0] }}</h4>
-        <ul class="skills__category__list">
-          {% for item in category[1] %}
-          <li>{{ item }}</li>
-          {% endfor %}
-        </ul>
-      </div>
-      {% endfor %}
-    </div>
-  </section>
-
+  {% include sections/team.html %}
+  {% include sections/projects.html title="Personal" source=site.data.projects %}
+  {% include sections/projects.html title="Other" source=site.data.other-projects%}
+  {% include sections/skills.html %}
 </main>

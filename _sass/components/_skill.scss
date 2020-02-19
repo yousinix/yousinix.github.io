@@ -1,0 +1,12 @@
+.skill {
+  &__title {
+    text-transform: uppercase;
+  }
+
+  &__list {
+    list-style: none;
+    padding: 0;
+    font-weight: 300;
+    @extend %hoverable;
+  }
+}

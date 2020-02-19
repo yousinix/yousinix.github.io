@@ -1,0 +1,10 @@
+.skills {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+
+  @include min-width(md) {
+    width: 80%;
+  }
+}

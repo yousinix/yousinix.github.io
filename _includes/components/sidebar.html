@@ -1,0 +1,28 @@
+<div class="sidebar">
+
+  <div class="sidebar__top">
+    <div class="sidebar__logo">
+      {% include components/icon.html name=site.github.owner.login %}
+    </div>
+    <a id="gh-rank" href="https://commits.top/egypt" class="sidebar__badge wow fadeIn slow" data-wow-delay="2s"></a>
+  </div>
+
+  <h1 class="sidebar__title">{{ site.github.owner.login }}</h1>
+  <p class="sidebar__bio">
+    I am a computer science junior student at Ain Shams University,
+    living in Cairo, Egypt. I am probably coding right now, so
+    wish me a code free of bugs!
+  </p>
+
+  <div class="sidebar__bottom">
+    <div class="sidebar__links">
+      {% assign delay = 0.6 %}
+      {% for link in site.data.links %}
+      {% assign data = link[1] %}
+      <a href="{{ data.url }}" class="sidebar__link wow fadeInLeft" data-wow-delay="{{ delay }}s">{{ data.name }}</a>
+      {% assign delay = delay | plus: 0.2 %}
+      {% endfor %}
+    </div>
+  </div>
+
+</div>

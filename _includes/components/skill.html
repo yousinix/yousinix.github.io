@@ -1,0 +1,8 @@
+<div class="skill">
+  <h4 class="skill__title">{{ include.title }}</h4>
+  <ul class="skill__list">
+    {% for item in include.items %}
+    <li>{{ item }}</li>
+    {% endfor %}
+  </ul>
+</div>
