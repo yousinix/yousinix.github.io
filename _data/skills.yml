@@ -1,26 +1,33 @@
 languages:
-  - C#
+  - C
   - C++
+  - C#
   - Java
+  - Python
   - Kotlin
   - Dart
   - Javascript
   - Typescript
   - HTML5
-  - CSS3
-  - Sass
+  - CSS3 / Sass
+  - SQL
   - GraphQL
   - Prolog
   - Assembly
+  - VHDL
 
 frameworks:
   - .Net
-  - Node.js
+  - WPF
+  - JavaFX
+  - Android
   - Flutter
-  - React
-  - Apollo GraphQL
+  - Node.js
   - Express
+  - Apollo
+  - React
   - Jekyll
+  - Bootstrap
   - MS Test
   - Jest
 
@@ -29,9 +36,13 @@ tools:
   - GitHub
   - Firebase
   - MongoDB
+  - Oracle Database
+  - MS SQL Server
   - Visual Studio
   - Visual Studio Code
-  - Intellij Idea
+  - Android Studio
+  - IntelliJ IDEA
+  - PyCharm
   - Linux
   - Windows
   - Adobe Photoshop
