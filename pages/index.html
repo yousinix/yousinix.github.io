@@ -1,0 +1,10 @@
+---
+layout: sidebar
+permalink: /
+---
+
+{% include sections/team.html %}
+{% assign featured_projects = site.data.projects | where: "featured", true %}
+{% include sections/projects.html title="Personal" source=featured_projects button-text="View More" button-url="/archive" %}
+{% include sections/projects.html title="Other" source=site.data.other-projects%}
+{% include sections/skills.html %}

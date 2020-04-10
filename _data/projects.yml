@@ -1,4 +1,5 @@
 - name: Aljurythm
+  featured: true
   url: https://www.nuget.org/packages/Aljurythm/
   description:
     A code judge that I have created for my Algorithms Course's Assignments, to replace
@@ -8,6 +9,7 @@
     - NuGet Package Manager
 
 - name: Detoxicated
+  featured: true
   url: https://youssefraafatnasry.me/detoxicated/
   description:
     Keeping track of my social media detox, time since I've left Facebook and Instagram.
@@ -17,6 +19,7 @@
     - CSS
 
 - name: otto
+  featured: true
   url: https://youssefraafatnasry.github.io/otto/
   description:
     otto is a smart mini-assistant that can reply "otto-matically" to basic messages
@@ -40,6 +43,7 @@
     - GitHub API
 
 - name: portfolYOU
+  featured: true
   url: https://youssefraafatnasry.github.io/portfolYOU/
   description:
     portfolYOU is a free modern open-source Jekyll portfolio and blogging theme that works
@@ -51,6 +55,7 @@
     - Ruby Gems
 
 - name: ScoutsEncoder
+  featured: true
   url: https://youssefraafatnasry.github.io/ScoutsEncoder/
   description:
     A WPF application that encodes arabic plain text into scouts' ciphers with
@@ -61,6 +66,7 @@
     - Material Design
 
 - name: Git for Wizards
+  featured: true
   url: https://github.com/YoussefRaafatNasry/git-for-wizards/
   description:
     A repo about, yeah you guessed it right, Git & GitHub where I expose most of the magic

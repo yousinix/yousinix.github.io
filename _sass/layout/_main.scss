@@ -35,4 +35,8 @@ body {
   @include min-width(md) {
     grid-area: content;
   }
+
+  &--span {
+    grid-column: span 2;
+  }
 }
