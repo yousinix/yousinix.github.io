@@ -1,5 +1,15 @@
-- name: Aljurythm
+- name: Attendit
   featured: true
+  url: https://github.com/YoussefRaafatNasry/attendit/
+  description:
+    Attendit is a SPA for exploring and booking events, at least for now. I use it as
+    a demo to learn Full-stack Development.
+  tags:
+    - Apollo GraphQL
+    - mongoDB
+    - React
+
+- name: Aljurythm
   url: https://www.nuget.org/packages/Aljurythm/
   description:
     A code judge that I have created for my Algorithms Course's Assignments, to replace
@@ -29,18 +39,6 @@
     - Kotlin
     - Android
     - Spotify API
-
-- name: RESx
-  url: https://resx.github.io/
-  tagline: Courses' materials and resources
-  description:
-    An unofficial community for collaboration to update and organize learning
-    resources of Faculty of Computer and Information Sciences at Ain Shams University.
-  tags:
-    - Jekyll
-    - HTML
-    - Sass
-    - GitHub API
 
 - name: portfolYOU
   featured: true
@@ -111,3 +109,22 @@
   tags:
     - C++
     - Data Visualization
+
+- name: RESx
+  url: https://resx.github.io/
+  tagline: Courses' materials and resources
+  description:
+    An unofficial community for collaboration to update and organize learning
+    resources of Faculty of Computer and Information Sciences at Ain Shams University.
+  tags:
+    - Jekyll
+    - HTML
+    - Sass
+    - GitHub API
+
+- name: v1
+  url: https://youssefraafatnasry.me/v1/
+  description:
+    First iteration of my personal website. It was a light theme, so not a big deal...
+  tags:
+    - Jekyll

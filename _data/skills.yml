@@ -17,7 +17,7 @@ languages:
   - VHDL
 
 frameworks:
-  - .Net
+  - ASP.Net
   - WPF
   - JavaFX
   - Android
@@ -34,6 +34,7 @@ frameworks:
 tools:
   - Git
   - GitHub
+  - Docker
   - Firebase
   - MongoDB
   - Oracle Database
