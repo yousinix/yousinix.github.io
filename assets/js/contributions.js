@@ -10,6 +10,7 @@ function fetchContributions(username, callback) {
         .split("\n\n")
         .find(u => u.includes(username));
       var json = yamlToJson(userData);
+      if (json.rank > 20) return;
       callback({
         ...json,
         ordinal_rank: getNumberWithOrdinal(json.rank)
