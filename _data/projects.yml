@@ -20,7 +20,7 @@
 
 - name: Detoxicated
   featured: true
-  url: https://youssefraafatnasry.me/detoxicated/
+  url: https://YoussefRaafatNasry.github.io/detoxicated/
   description:
     Keeping track of my social media detox, time since I've left Facebook and Instagram.
     I think you should try quitting it too.
@@ -30,7 +30,7 @@
 
 - name: otto
   featured: true
-  url: https://youssefraafatnasry.github.io/otto/
+  url: https://YoussefRaafatNasry.github.io/otto/
   description:
     otto is a smart mini-assistant that can reply "otto-matically" to basic messages
     on chatting apps like WhatsApp, Messenger, etc. He can also do basic tasks like
@@ -42,7 +42,7 @@
 
 - name: portfolYOU
   featured: true
-  url: https://youssefraafatnasry.github.io/portfolYOU/
+  url: https://YoussefRaafatNasry.github.io/portfolYOU/
   description:
     portfolYOU is a free modern open-source Jekyll portfolio and blogging theme that works
     with GitHub Pages with a plenty of elements and a lot of possible customizations.
@@ -54,7 +54,7 @@
 
 - name: ScoutsEncoder
   featured: true
-  url: https://youssefraafatnasry.github.io/ScoutsEncoder/
+  url: https://YoussefRaafatNasry.github.io/ScoutsEncoder/
   description:
     A WPF application that encodes arabic plain text into scouts' ciphers with
     a single button click. Usually scouts' leaders used to do the encoding using pen and paper.
@@ -123,7 +123,7 @@
     - GitHub API
 
 - name: v1
-  url: https://youssefraafatnasry.me/v1/
+  url: https://YoussefRaafatNasry.github.io/v1/
   description:
     First iteration of my personal website. It was a light theme, so not a big deal...
   tags:
