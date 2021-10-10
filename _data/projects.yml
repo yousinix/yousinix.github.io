@@ -1,5 +1,13 @@
-- name: Attendit
+- name: LoForm
   featured: true
+  url: https://github.com/YoussefRaafatNasry/lo_form/
+  description:
+    Lightweight and Low-code forms library for Flutter, that is inspired by the great React's Formik.
+  tags:
+    - Dart
+    - Flutter
+
+- name: Attendit
   url: https://github.com/YoussefRaafatNasry/attendit/
   description:
     Attendit is a SPA for exploring and booking events, at least for now. I use it as
