@@ -5,10 +5,6 @@ _site/
 .jekyll-metadata
 debug.log
 
-# To generate Gemfile.lock -> use: $ bundle install
-# If unknown encoding name CP720 Error occured -> use: $ chcp.com 1252
-Gemfile.lock
-
 # Adobe files
 *.ai
 *.psd
