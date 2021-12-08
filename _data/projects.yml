@@ -1,6 +1,6 @@
 - name: LoForm
   featured: true
-  url: https://github.com/YoussefRaafatNasry/lo_form/
+  url: https://YoussefRaafatNasry.github.io/lo_form/
   description:
     Lightweight and Low-code forms library for Flutter, that is inspired by the great React's Formik.
   tags:
