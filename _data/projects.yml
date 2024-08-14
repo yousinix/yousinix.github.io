@@ -1,6 +1,6 @@
 - name: LoForm
   featured: true
-  url: https://YoussefRaafatNasry.github.io/lo_form/
+  url: https://yousinix.github.io/lo_form/
   description:
     Lightweight and Low-code forms library for Flutter, that is inspired by the great React's Formik.
   tags:
@@ -8,7 +8,7 @@
     - Flutter
 
 - name: Attendit
-  url: https://github.com/YoussefRaafatNasry/attendit/
+  url: https://github.com/yousinix/attendit/
   description:
     Attendit is a SPA for exploring and booking events, at least for now. I use it as
     a demo to learn Full-stack Development.
@@ -28,7 +28,7 @@
 
 - name: Detoxicated
   featured: true
-  url: https://YoussefRaafatNasry.github.io/detoxicated/
+  url: https://yousinix.github.io/detoxicated/
   description:
     Keeping track of my social media detox, time since I've left Facebook and Instagram.
     I think you should try quitting it too.
@@ -38,7 +38,7 @@
 
 - name: otto
   featured: true
-  url: https://YoussefRaafatNasry.github.io/otto/
+  url: https://yousinix.github.io/otto/
   description:
     otto is a smart mini-assistant that can reply "otto-matically" to basic messages
     on chatting apps like WhatsApp, Messenger, etc. He can also do basic tasks like
@@ -50,7 +50,7 @@
 
 - name: portfolYOU
   featured: true
-  url: https://YoussefRaafatNasry.github.io/portfolYOU/
+  url: https://yousinix.github.io/portfolYOU/
   description:
     portfolYOU is a free modern open-source Jekyll portfolio and blogging theme that works
     with GitHub Pages with a plenty of elements and a lot of possible customizations.
@@ -62,7 +62,7 @@
 
 - name: ScoutsEncoder
   featured: true
-  url: https://YoussefRaafatNasry.github.io/ScoutsEncoder/
+  url: https://yousinix.github.io/ScoutsEncoder/
   description:
     A WPF application that encodes arabic plain text into scouts' ciphers with
     a single button click. Usually scouts' leaders used to do the encoding using pen and paper.
@@ -73,7 +73,7 @@
 
 - name: Git for Wizards
   featured: true
-  url: https://github.com/YoussefRaafatNasry/git-for-wizards/
+  url: https://github.com/yousinix/git-for-wizards/
   description:
     A repo about, yeah you guessed it right, Git & GitHub where I expose most of the magic
     spells that I have learned and the magic wands that I use regularly.
@@ -82,7 +82,7 @@
     - GitHub
 
 - name: CP Journey
-  url: https://github.com/YoussefRaafatNasry/cp-journey/
+  url: https://github.com/yousinix/cp-journey/
   description:
     Learning a lot of data structures and algorithms and solving much more problems
     to improve my problem solving and critical thinking skills.
@@ -90,7 +90,7 @@
     - Competitive Programming
 
 - name: DRG
-  url: https://github.com/YoussefRaafatNasry/dummy-repo-generator/
+  url: https://github.com/yousinix/dummy-repo-generator/
   description:
     A bash script to generate git repository with dummy commits, helpful for educational
     purposes and to try new git commands without destroying real-life repositories.
@@ -99,7 +99,7 @@
     - Script
 
 - name: Identicon Generator
-  url: https://github.com/YoussefRaafatNasry/identicon-generator/
+  url: https://github.com/yousinix/identicon-generator/
   description:
     An Identicon is a visual representation of a hash value, usually of an IP address,
     that serves to identify a user of a computer system as a form of avatar while
@@ -109,7 +109,7 @@
     - Java
 
 - name: BST ASCII Visualization
-  url: https://github.com/YoussefRaafatNasry/bst-ascii-visualization/
+  url: https://github.com/yousinix/bst-ascii-visualization/
   description:
     A command line tool for visualizing Binary Search Trees using an algorithm
     I have developed myself from multiple algorithms that are available in
@@ -131,7 +131,7 @@
     - GitHub API
 
 - name: v1
-  url: https://YoussefRaafatNasry.github.io/v1/
+  url: https://yousinix.github.io/v1/
   description:
     First iteration of my personal website. It was a light theme, so not a big deal...
   tags:
